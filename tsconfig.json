@@ -14,8 +14,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["./src/components/*/index", "./src/components/*"]
+    },
+    "types": ["jest"]
   },
   "include": ["src"],
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
