@@ -7,9 +7,17 @@ export const globalStyles = globalCss({
     boxSizing: 'border-box'
   },
 
-  body : {
+  body: {
     color: '$gray11',
     backgroundColor: '$gray1',
     fontFamily: 'Roboto, sans-serif'
+  },
+
+  button: {
+    border: 0
+  },
+
+  input: {
+    border: 0
   }
 })

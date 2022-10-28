@@ -1,11 +1,13 @@
 import React from 'react'
-import { Hello } from './components/Hello'
+import { Button } from './components/Button'
 import { ThemeProvider } from './providers/ThemeProvider'
 
 export const App: React.FunctionComponent = () => {
   return (
     <ThemeProvider>
-      <Hello />
+      <Button color="gray">
+        ola
+      </Button>
     </ThemeProvider>
   )
 }
