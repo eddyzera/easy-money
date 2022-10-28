@@ -17,7 +17,13 @@ export default {
 const Template: ComponentStory<typeof Button> = (args) => <Button {...args} >Button</Button>;
 
 export const Primary = Template.bind({});
+export const Secondary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
-  color: 'gray'
+  color: 'gray',
+};
+
+Secondary.args = {
+  color: 'gray',
+  outlined: true
 };
