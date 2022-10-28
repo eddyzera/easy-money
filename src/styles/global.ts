@@ -9,6 +9,7 @@ export const globalStyles = globalCss({
 
   body : {
     color: '$gray11',
-    backgroundColor: '$gray1'
+    backgroundColor: '$gray1',
+    fontFamily: 'Roboto, sans-serif'
   }
 })
