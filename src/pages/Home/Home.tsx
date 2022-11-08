@@ -1,16 +1,27 @@
 import React from 'react'
-import Banner from '../../assets/banner.svg'
-import { HomeContainer, HomeBanner, HomeFormWrapper, HomeBannerWrapper } from './styles'
+import { Button } from '../../components/Button'
+import {
+  HomeContainer,
+  HomeContentWrapper,
+  HomeTitleContent,
+  HomeSpanContent,
+  HomeDescriptionContet,
+  HomeWelcomeContet
+} from './styles'
 
 export const Home: React.FunctionComponent = () => {
   return (
     <HomeContainer>
-      <HomeBannerWrapper>
-        <HomeBanner src={Banner} />
-      </HomeBannerWrapper>
-      <HomeFormWrapper>
-        <h1>Home</h1>
-      </HomeFormWrapper>
+      <HomeContentWrapper>
+        <HomeTitleContent>
+          <HomeWelcomeContet>Olá, bem-vindo á ✋</HomeWelcomeContet>
+          Easy<HomeSpanContent>money</HomeSpanContent>
+        </HomeTitleContent>
+        <HomeDescriptionContet>
+          Uma plataforma totalmente dedicada para facilitar o seu gerenciamento de suas finanças
+        </HomeDescriptionContet>
+        <Button color="gray">Entrar</Button>
+      </HomeContentWrapper>
     </HomeContainer>
   )
 }

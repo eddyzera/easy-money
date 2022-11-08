@@ -25,13 +25,21 @@ export const Button = styled('button', {
           backgroundColor: '$blue4'
         }
       },
-
       red: {
         color: '$red11',
         backgroundColor: '$red3',
 
         '&:hover': {
           backgroundColor: '$red4'
+        }
+      },
+
+      yellow: {
+        color: '$yellow11',
+        backgroundColor: '$yellow3',
+
+        '&:hover': {
+          backgroundColor: '$yellow4'
         }
       },
     },
@@ -76,6 +84,18 @@ export const Button = styled('button', {
 
         '&:hover': {
           backgroundColor: '$red8',
+        }
+      }
+    },
+    {
+      color: 'yellow',
+      outlined: true,
+      css: {
+        color: '$yellow11',
+        borderColor: '$yellow7',
+
+        '&:hover': {
+          backgroundColor: '$yellow8',
         }
       }
     },
