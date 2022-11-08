@@ -6,7 +6,6 @@ export const HomeContainer = styled('div', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  gap: '$7',
 })
 
 export const HomeContentWrapper = styled('div', {
