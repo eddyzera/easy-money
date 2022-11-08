@@ -20,7 +20,7 @@ export const Home: React.FunctionComponent = () => {
         <HomeDescriptionContet>
           Uma plataforma totalmente dedicada para facilitar o seu gerenciamento de suas finanças
         </HomeDescriptionContet>
-        <Button color="gray">Entrar</Button>
+        <Button color="gray">Acessar ou criar nova conta</Button>
       </HomeContentWrapper>
     </HomeContainer>
   )
